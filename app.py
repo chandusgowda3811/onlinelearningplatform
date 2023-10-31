@@ -212,7 +212,7 @@ def send_new_course_email( email_content):
     email_address = 'sendermail@gmail.com'  # Your Gmail email address
     app_password = 'password'  # Your app-specific password
 
-    to_email = 'bond3811007@gmail.com'  # Recipient's email address
+    to_email = 'revicermail@gmail.com'  # Recipient's email address
 
  
     message = MIMEMultipart()
