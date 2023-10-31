@@ -122,7 +122,7 @@ def send_otp_email(to_email, otp):
     server.starttls()
     
     # Replace with your email and password
-    server.login('chandugowda3811@gmail.com', 'pngf ixsr ttal mpjf')
+    server.login('sendermail@gmail.com', 'password')
     server.sendmail('your_email@gmail.com', to_email, msg.as_string())
     server.quit()
 
@@ -209,8 +209,8 @@ def teacher_login():
 
 
 def send_new_course_email( email_content):
-    email_address = 'chandugowda3811@gmail.com'  # Your Gmail email address
-    app_password = 'pngf ixsr ttal mpjf'  # Your app-specific password
+    email_address = 'sendermail@gmail.com'  # Your Gmail email address
+    app_password = 'password'  # Your app-specific password
 
     to_email = 'bond3811007@gmail.com'  # Recipient's email address
 
